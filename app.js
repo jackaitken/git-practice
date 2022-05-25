@@ -10,6 +10,10 @@ app.get('/home', (req, res) => {
   res.send('This is the home page');
 });
 
+app.get('/menu' (req, res) => {
+  res.send('This is the menu');
+});
+
 app.listen(PORT, () => {
   console.log(`Listening on Port ${PORT}`);
 }); 
